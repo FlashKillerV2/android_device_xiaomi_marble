@@ -288,9 +288,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml
 
-# Lineage Health
+# spark Health
 PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
+    vendor.spark.health-service.default
 
 # Media
 PRODUCT_PACKAGES += \
